@@ -1,0 +1,209 @@
+.input-body{
+    width: 100%;
+    /* width: ; */
+    height: 14%;
+    /* background-color: #fff; */
+    /* margin-top: 2%; */
+    display: flex;
+    justify-content:center ;
+align-items: center;
+}
+.input{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: var(--white-colorr);
+    /* background-color: #d72a2a90; */
+    height: 75%;
+    border: 3px solid var(--white-color);
+    border-radius: 50px;
+    padding: 2px 5px 2px 12px;
+    gap: 5px
+    ;
+}
+
+.input-github--logo{
+    height: 100%;
+    width: 5%;
+    /* background-color: red; */
+    font-size: 2.5rem;
+    display: flex ;
+    justify-content:start;
+    align-items: center;
+}
+
+.slash{
+    height: 100%;
+    width: 2%;
+    /* background-color: red; */
+    font-size: 2.5rem;
+    display: flex ;
+    justify-content:center;
+    align-items: center;
+}
+
+.search-input{
+    height: 100%;
+    width: 75%;
+    /* background-color: #8f4f4f; */
+    font-size: 1.5rem;
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--white-color);
+}
+
+.search-input::placeholder{
+    color: #fffff0dd;    
+}
+.search-input:focus{
+    border: none;
+    outline: none;
+}
+
+
+.find--btn{
+    width: 17%;
+    height: 95%;
+    background-color: var(--white-color);
+    border: none;
+    border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+font-size: 1.7rem;
+color: var(--blue-color);
+cursor: pointer;
+transition: all .3s;
+
+}
+.find--btn:hover{
+    background-color: #fffff0cb;
+}
+
+
+
+
+
+
+  
+@media (min-width: 0px) and (max-width:400px) {
+    .input{
+ /* background-color: #be5858; */
+        width: 97%;
+    height: 60%;
+    border: 1px solid var(--white-color);
+    }   
+    .input-github--logo{
+        font-size: 35px;
+    }   
+    
+
+.slash{
+    width: 5%;
+    /* background: #000; */
+    font-weight: 500;
+    margin-left: 10px;
+    font-size: 25px;
+
+    }
+
+    .search-input{
+        font-size: 20px;
+        width: 60%;
+    }
+    .find--btn{
+        font-size: 20px;
+        width: 30%;
+    }
+
+.input-github--logo{
+    font-size: 25px;
+}
+      }
+    
+    
+    
+    @media (min-width: 400px) and (max-width:610px) {
+        /* Your styles for extra small devices */
+    
+        .input{
+            width: 95%;
+        height: 60%;
+        }   
+               
+    .slash{
+        width: 7%;
+        margin-left: 10px;
+        /* background: #000; */
+        /* justify-content: start; */
+        font-weight: 500;
+        }
+      
+           
+      
+      
+      }
+      
+      
+      /* Small devices (landscape phones, 576px and up) */
+      @media (min-width: 611px) and (max-width: 767.98px) {
+        /* Your styles for small devices */
+      
+        .input{
+            width: 90%;
+        height: 65%;
+        }   
+               
+    .slash{
+        width: 8%;
+        }
+      }
+      
+      /* Medium devices (tablets, 768px and up) */
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        /* Your styles for medium devices */
+     
+        .input{
+            width: 80%;
+        height: 50%;
+        }
+        
+
+
+        
+    .slash{
+        width: 5%;
+        }
+        
+            
+    }
+
+      
+      
+      
+        
+      
+      
+      /* Large devices (desktops, 992px and up) */
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        /* Your styles for large devices */
+      
+      .input{width: 80%;}
+        
+        }
+       
+      
+      
+      /* Extra large devices (large desktops, 1200px and up) */
+      @media (min-width: 1200px) and (max-width: 1399.98px) {
+        /* Your styles for extra large devices */
+      }
+      
+      /* Ultra large devices (extra large desktops, 1400px and up) */
+      @media (min-width: 1400px) {
+        /* Your styles for ultra large devices */
+      }
+      
+      
+    

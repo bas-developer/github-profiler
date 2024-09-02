@@ -1,0 +1,9 @@
+.home-body{
+    height: 100vh;
+    /* max-height: 150vh; */
+    width: 100%;
+    background-color:var(--blue-color);
+color: var(--white-color);
+font-family: var(--font-family);
+
+  }
